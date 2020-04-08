@@ -1,0 +1,5 @@
+:TMainWindow.buttonCancel_QPushButton	{name='buttonCancel' type='QPushButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.buttonFQ_QRadioButton	{name='buttonFQ' type='QRadioButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.buttonTR_QRadioButton	{name='buttonTR' type='QRadioButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.buttonToJcf_QRadioButton	{name='buttonToJcf' type='QRadioButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow_TMainWindow	{name='TMainWindow' type='TMainWindow' visible='1'}
