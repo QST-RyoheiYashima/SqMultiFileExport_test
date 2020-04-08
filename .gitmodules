@@ -1,0 +1,4 @@
+[submodule "src/trunk/common_out"]
+	path = src/trunk/common_out
+	url = https://github.com/jmag-international/TestAutomationBySquish.git
+	branch = develop_v181
