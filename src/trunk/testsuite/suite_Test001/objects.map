@@ -1,5 +1,62 @@
+:QFileDialog.lookInCombo_QComboBox	{name='lookInCombo' type='QComboBox' visible='1' window=':QFileDialog_QFileDialog'}
+:QFileDialog.splitter_QSplitter	{name='splitter' type='QSplitter' visible='1' window=':QFileDialog_QFileDialog'}
+:QFileDialog.キャンセル_QPushButton	{text='キャンセル' type='QPushButton' unnamed='1' visible='1' window=':QFileDialog_QFileDialog'}
+:QFileDialog_QFileDialog	{name='QFileDialog' type='QFileDialog' visible='1'}
+:TMainWindow.buttonAdd_QPushButton	{name='buttonAdd' type='QPushButton' visible='1' window=':TMainWindow_TMainWindow'}
 :TMainWindow.buttonCancel_QPushButton	{name='buttonCancel' type='QPushButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.buttonEdit_QPushButton	{name='buttonEdit' type='QPushButton' visible='1' window=':TMainWindow_TMainWindow'}
 :TMainWindow.buttonFQ_QRadioButton	{name='buttonFQ' type='QRadioButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.buttonOk_QPushButton	{name='buttonOk' type='QPushButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.buttonReadXml_QPushButton	{name='buttonReadXml' type='QPushButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.buttonReference_QRadioButton	{name='buttonReference' type='QRadioButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.buttonRemove_QPushButton	{name='buttonRemove' type='QPushButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.buttonST_QRadioButton	{name='buttonST' type='QRadioButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.buttonSaveXml_QPushButton	{name='buttonSaveXml' type='QPushButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.buttonSpecified_QRadioButton	{name='buttonSpecified' type='QRadioButton' visible='1' window=':TMainWindow_TMainWindow'}
 :TMainWindow.buttonTR_QRadioButton	{name='buttonTR' type='QRadioButton' visible='1' window=':TMainWindow_TMainWindow'}
 :TMainWindow.buttonToJcf_QRadioButton	{name='buttonToJcf' type='QRadioButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.buttonToNastran_QRadioButton	{name='buttonToNastran' type='QRadioButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.comboReference_QComboBox	{name='comboReference' type='QComboBox' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.fMeshModelPreviewButton_QPushButton	{name='fMeshModelPreviewButton' type='QPushButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.fMeshModelUnitCombo_QComboBox	{name='fMeshModelUnitCombo' type='QComboBox' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.fResultPreviewButton_QPushButton	{name='fResultPreviewButton' type='QPushButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.fSearchDistanceEdit_QLineEdit	{name='fSearchDistanceEdit' type='QLineEdit' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.fSearchDistanceUnitCombo_QComboBox	{name='fSearchDistanceUnitCombo' type='QComboBox' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.fUseAutoSearchDistanceCheck_QCheckBox	{name='fUseAutoSearchDistanceCheck' type='QCheckBox' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.frameOutputFileType_QFrame	{name='frameOutputFileType' type='QFrame' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.frameOutputInterval_QFrame	{name='frameOutputInterval' type='QFrame' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.pushButton_Output_QPushButton	{name='pushButton_Output' type='QPushButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.pushButton_Specified_QPushButton	{name='pushButton_Specified' type='QPushButton' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.tablePlots_QTableWidget	{name='tablePlots' type='QTableWidget' visible='1' window=':TMainWindow_TMainWindow'}
+:TMainWindow.treeOutput_QTreeWidget	{name='treeOutput' type='QTreeWidget' visible='1' window=':TMainWindow_TMainWindow'}
 :TMainWindow_TMainWindow	{name='TMainWindow' type='TMainWindow' visible='1'}
+:TPlotSettingDialog_TPlotSettingDialog	{name='TPlotSettingDialog' type='TPlotSettingDialog' visible='1'}
+:TResultPreviewSettingDialog.fCancelButton_QPushButton	{name='fCancelButton' type='QPushButton' visible='1' window=':TResultPreviewSettingDialog_TResultPreviewSettingDialog'}
+:TResultPreviewSettingDialog_TResultPreviewSettingDialog	{name='TResultPreviewSettingDialog' type='TResultPreviewSettingDialog' visible='1'}
+:fOutputFrequencyRangeFrame.fAllFrequencyRadio_QRadioButton	{container=':frameOutputInterval.fOutputFrequencyRangeFrame_QFrame' name='fAllFrequencyRadio' type='QRadioButton' visible='1'}
+:fOutputFrequencyRangeFrame.fLowerLimitHarmonicEdit_QLineEdit	{container=':frameOutputInterval.fOutputFrequencyRangeFrame_QFrame' name='fLowerLimitHarmonicEdit' type='QLineEdit' visible='1'}
+:fOutputFrequencyRangeFrame.fSpecifiedFrequencyRadio_QRadioButton	{container=':frameOutputInterval.fOutputFrequencyRangeFrame_QFrame' name='fSpecifiedFrequencyRadio' type='QRadioButton' visible='1'}
+:fOutputFrequencyRangeFrame.fSpecifiedHarmonicOrderRadio_QRadioButton	{container=':frameOutputInterval.fOutputFrequencyRangeFrame_QFrame' name='fSpecifiedHarmonicOrderRadio' type='QRadioButton' visible='1'}
+:fOutputFrequencyRangeFrame.fUpperLimitHarmonicEdit_QLineEdit	{container=':frameOutputInterval.fOutputFrequencyRangeFrame_QFrame' name='fUpperLimitHarmonicEdit' type='QLineEdit' visible='1'}
+:frame.stackedWidget_QStackedWidget	{container=':splitter.frame_QFrame' name='stackedWidget' type='QStackedWidget' visible='1'}
+:frameOutputFileType.checkOutputMeshFile_QCheckBox	{container=':TMainWindow.frameOutputFileType_QFrame' name='checkOutputMeshFile' type='QCheckBox' visible='1'}
+:frameOutputFileType.fOutputFileTypeCombo_QComboBox	{container=':TMainWindow.frameOutputFileType_QFrame' name='fOutputFileTypeCombo' type='QComboBox' visible='1'}
+:frameOutputInterval.buttonIntervalFromFile_QRadioButton	{container=':TMainWindow.frameOutputInterval_QFrame' name='buttonIntervalFromFile' type='QRadioButton' visible='1'}
+:frameOutputInterval.buttonSpecifiedInterval_QRadioButton	{container=':TMainWindow.frameOutputInterval_QFrame' name='buttonSpecifiedInterval' type='QRadioButton' visible='1'}
+:frameOutputInterval.fOutputFrequencyRangeFrame_QFrame	{container=':TMainWindow.frameOutputInterval_QFrame' name='fOutputFrequencyRangeFrame' type='QFrame' visible='1'}
+:frameOutputInterval.frameOutputTime_QFrame	{container=':TMainWindow.frameOutputInterval_QFrame' name='frameOutputTime' type='QFrame' visible='1'}
+:frameOutputInterval.frameTarget_QFrame	{container=':TMainWindow.frameOutputInterval_QFrame' name='frameTarget' type='QFrame' visible='1'}
+:frameOutputTime.editEndTime_QLineEdit	{container=':frameOutputInterval.frameOutputTime_QFrame' name='editEndTime' type='QLineEdit' visible='1'}
+:frameOutputTime.editStartTime_QLineEdit	{container=':frameOutputInterval.frameOutputTime_QFrame' name='editStartTime' type='QLineEdit' visible='1'}
+:frameOutputTime.editStepDiv_QLineEdit	{container=':frameOutputInterval.frameOutputTime_QFrame' name='editStepDiv' type='QLineEdit' visible='1'}
+:frameTarget.buttonAllSteps_QRadioButton	{container=':frameOutputInterval.frameTarget_QFrame' name='buttonAllSteps' type='QRadioButton' visible='1'}
+:frameTarget.buttonSpecifiedSteps_QRadioButton	{container=':frameOutputInterval.frameTarget_QFrame' name='buttonSpecifiedSteps' type='QRadioButton' visible='1'}
+:frameTarget.comboReferenceInterval_QComboBox	{container=':frameOutputInterval.frameTarget_QFrame' name='comboReferenceInterval' type='QComboBox' visible='1'}
+:frameTarget.editEndStep_QLineEdit	{container=':frameOutputInterval.frameTarget_QFrame' name='editEndStep' type='QLineEdit' visible='1'}
+:frameTarget.editStartStep_QLineEdit	{container=':frameOutputInterval.frameTarget_QFrame' name='editStartStep' type='QLineEdit' visible='1'}
+:splitter.frame_QFrame	{container=':QFileDialog.splitter_QSplitter' name='frame' type='QFrame' visible='1'}
+:splitter.sidebar_QSidebar	{container=':QFileDialog.splitter_QSplitter' name='sidebar' type='QSidebar' visible='1'}
+:stackedWidget.treeView_QTreeView	{container=':frame.stackedWidget_QStackedWidget' name='treeView' type='QTreeView' visible='1'}
+:多目的ファイル出力ツール_QProgressDialog	{type='QProgressDialog' unnamed='1' visible='1' windowTitle='多目的ファイル出力ツール'}
+:正常終了.OK_QPushButton	{text='OK' type='QPushButton' unnamed='1' visible='1' window=':正常終了_QMessageBox'}
+:正常終了_QMessageBox	{type='QMessageBox' unnamed='1' visible='1' windowTitle='正常終了'}

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<parameters>
+    <parameter name="plot_lists" size="1">
+        <plot filename="D:/99_personal/【task】/10_多目的ファイル出力ツールテスト自動化/test/Designer.jplot">
+            <parameter name="periodic_type">0</parameter>
+            <parameter name="step_type">0</parameter>
+            <parameter name="start_step">1</parameter>
+            <parameter name="end_step">193</parameter>
+            <parameter name="harmonic_flag">false</parameter>
+            <parameter name="harmonic_order">1</parameter>
+            <parameter name="start_time">0</parameter>
+            <parameter name="end_time">0</parameter>
+            <parameter name="number_steps_dividied">1</parameter>
+            <point name="primary_axis">
+                <x>1</x>
+                <y>2</y>
+                <z>3</z>
+            </point>
+            <point name="secondary_axis">
+                <x>4</x>
+                <y>5</y>
+                <z>6</z>
+            </point>
+            <point name="origin">
+                <x>7</x>
+                <y>8</y>
+                <z>9</z>
+            </point>
+            <parameter name="origin_unit">mm</parameter>
+            <parameter name="extend_full">false</parameter>
+            <parameter name="extend_type">0</parameter>
+            <parameter name="extend_periodic_boundary">false</parameter>
+            <parameter name="extend_xy">false</parameter>
+            <parameter name="extend_yz">false</parameter>
+            <parameter name="extend_zx">false</parameter>
+            <parameter name="extend_3d">false</parameter>
+            <parameter name="extend_3d_height">1</parameter>
+            <parameter name="extend_3d_unit">mm</parameter>
+            <parameter name="output_force_type">0</parameter>
+            <parameter name="use_averaged_pressure">false</parameter>
+            <parameter name="target_distance">0</parameter>
+            <parameter name="target_distance_unit">mm</parameter>
+            <parameter name="nodal_force_map_method">1</parameter>
+            <parameter name="flg_generalized_force">false</parameter>
+            <parameter name="eigen_matrix_file"><![CDATA[]]></parameter>
+            <parameter name="flg_map_central_node">1</parameter>
+            <parts size="5">
+                <id>1</id>
+                <id>18</id>
+                <id>19</id>
+                <id>16</id>
+                <id>17</id>
+            </parts>
+            <sets size="0"/>
+            <results size="1">
+                <result>
+                    <id>501</id>
+                    <factor>1</factor>
+                    <offset>0</offset>
+                </result>
+            </results>
+        </plot>
+    </parameter>
+    <parameter name="output_type">0</parameter>
+    <parameter name="output_file_type">0</parameter>
+    <parameter name="flg_nastran_file_type">1</parameter>
+    <parameter name="flg_nastran_format_type">1</parameter>
+    <parameter name="output_nastran_mesh_file">1</parameter>
+    <parameter name="output_file"><![CDATA[D:/99_personal/【task】/10_多目的ファイル出力ツールテスト自動化/test/output.nas]]></parameter>
+    <parameter name="mesh_model_unit">m</parameter>
+    <parameter name="mesh_model_type">1</parameter>
+    <parameter name="mesh_model_file"><![CDATA[D:/99_personal/【task】/10_多目的ファイル出力ツールテスト自動化/test/Designer.jplot]]></parameter>
+    <parameter name="mesh_model_divisions">1</parameter>
+    <parameter name="flg_output_time">0</parameter>
+    <parameter name="output_time_reference_file"><![CDATA[]]></parameter>
+    <parameter name="flg_output_time_target_step">0</parameter>
+    <parameter name="output_start_step">1</parameter>
+    <parameter name="output_end_step">193</parameter>
+    <parameter name="output_start_time">0</parameter>
+    <parameter name="output_end_time">0</parameter>
+    <parameter name="output_time_division">1</parameter>
+    <parameter name="output_frequency_type">0</parameter>
+    <parameter name="upper_limit_frequency">1</parameter>
+    <parameter name="lower_limit_frequency">1</parameter>
+    <parameter name="flg_auto_search_distance">true</parameter>
+    <parameter name="search_distance">0</parameter>
+    <parameter name="search_distance_unit">mm</parameter>
+    <parameter name="preview_mesh_file"><![CDATA[]]></parameter>
+</parameters>

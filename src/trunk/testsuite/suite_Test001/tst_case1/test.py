@@ -14,4 +14,3 @@ def main():
 def test_step1():
 	# 手順1
 	action_click( g_on_GeneralInterface_Window )
-
