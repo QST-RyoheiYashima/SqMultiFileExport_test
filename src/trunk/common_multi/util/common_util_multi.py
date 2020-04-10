@@ -9,6 +9,12 @@ widget操作以外の共通処理を記述する。
 Author	: QST R.Yashima
 """
 
+def get_step_section( section_desc ):
+	"""
+	test.startSectionに指定する文字列を取得する。
+	"""
+	return "%s" % section_desc
+
 def is_eng():
 	"""
 	言語設定を取得する.
@@ -22,5 +28,6 @@ def index_lang():
 	"""
 	言語にあわせたINDEXを取得する。tuple/配列の格納位置に使用する。
 	"""
+	# TODO:基本的に日本語の想定。必要な場合は別途設定処理を検討。
+	#      (Designer側で設定する必要があると思われる。)
 	return 1 if is_eng() else 0
-

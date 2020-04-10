@@ -248,7 +248,7 @@ if 2==%p_version_SquishTest% (
 set VERSION_NUMBER=%version_SquishTest2%
 )
 REM 結果出力先
-set TestResultRootPath=D:\autotests\result\%VERSION_NUMBER%
+set TestResultRootPath=D:\autotests\result_multi\%VERSION_NUMBER%
 REM ****************************************
 
 REM app
